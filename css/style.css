@@ -1,1 +1,105 @@
 @import url('reset.css');
+
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.header__ted {
+    background: #001F1F;
+    text-align: center;
+}
+
+.header__ted .header__link {
+    font-family: 'Public Sans';
+    font-size: 14px;
+    line-height: 1.21;
+    color: rgba(255, 255, 255, 0.85);
+    display: inline-block;
+    padding: 15px 0;
+}
+
+.header__main {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.header__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu {
+    display: flex;
+}
+
+.header__link {
+    display: inline-block;
+    padding: 26px 25px;
+    font-family: 'Public Sans';
+    font-size: 13px;
+    line-height: 1.23;
+    color: #FFFFFF;
+}
+
+/* banner */
+
+.banner {
+    height: 776px;
+    color: #FFFFFF;
+    background: url('../img/bg/main-bg.jfif') top/cover no-repeat;
+}
+
+.banner__holder {
+    max-width: 520px;
+}
+
+.banner__title {
+    font-family: 'Libre Baskerville';
+    font-size: 38px;
+    line-height: 1.16;
+    letter-spacing: 1px;
+    padding-top: 175px; 
+    margin-bottom: 29px; 
+}
+
+.banner__subtitle {
+    font-family: 'Public Sans';
+    font-size: 18px;
+    line-height: 1.56;
+    margin-bottom: 29px;
+}
+
+.banner__btn {
+    font-family: 'Public Sans';
+    font-size: 13px;
+    line-height: 1.54;
+    display: inline-block;
+    padding: 17px 33px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 80px;
+    margin-bottom: 108px;
+}
+
+.banner__caption {
+    font-family: 'Public Sans';
+    font-size: 15px;
+    line-height: 1.6;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.banner__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner__link {
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+    width: 153px;
+    padding: 17px 0 40px;
+    display: inline-block;
+}
