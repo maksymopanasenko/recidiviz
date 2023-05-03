@@ -249,3 +249,42 @@
     line-height: 1.6;
     color: rgba(53, 83, 98, 0.8);
 }
+
+/* system */
+
+.system {
+    display: flex;
+    height: 706px;
+    background: #001414;
+}
+
+.system__background {
+    width: 100%;
+    background: url('../img/bg/multilines.png') center/cover no-repeat;
+}
+
+.system__background_left {
+    background: url('../img/bg/four-lines.png') center/cover no-repeat;
+}
+
+.system__content {
+    max-width: 680px;
+    display: flex;
+    align-items: center;
+    padding: 0 82px;
+}
+
+.system__title {
+    margin-bottom: 21px;
+    font-family: 'Public Sans';
+    font-size: 22px;
+    line-height: 1;
+    color: #FFFFFF;
+}
+
+.system__text {
+    font-family: 'Public Sans';
+    font-size: 15px;
+    line-height: 1.6;
+    color: #FFFFFF;
+}
