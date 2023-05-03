@@ -6,6 +6,25 @@
     margin: 0 auto;
 }
 
+.main__btn {
+    font-family: 'Public Sans';
+    font-size: 13px;
+    line-height: 1.54;
+    display: inline-block;
+    padding: 17px 33px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 80px;
+    margin-bottom: 108px;
+    color: #FFFFFF;
+}
+
+.main__btn_dark {    
+    color: #00413E;
+    border: 1px solid rgba(53, 83, 98, 0.2);
+}
+
+/* header */
+
 .header__ted {
     background: #001F1F;
     text-align: center;
@@ -73,17 +92,6 @@
     margin-bottom: 29px;
 }
 
-.banner__btn {
-    font-family: 'Public Sans';
-    font-size: 13px;
-    line-height: 1.54;
-    display: inline-block;
-    padding: 17px 33px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    border-radius: 80px;
-    margin-bottom: 108px;
-}
-
 .banner__caption {
     font-family: 'Public Sans';
     font-size: 15px;
@@ -102,4 +110,142 @@
     width: 153px;
     padding: 17px 0 40px;
     display: inline-block;
+}
+
+/* about */
+
+.about {
+    padding: 120px 0 141px;
+    text-align: center;
+}
+
+.about .container {
+    max-width: 700px;
+}
+
+.about__text {
+    font-family: 'Libre Baskerville';
+    font-size: 29px;
+    line-height: 1.31;
+    letter-spacing: 1px;
+    color: #003331;
+    max-width: 678px;
+    margin-bottom: 57px;
+}
+
+.about__wrapper {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.about__item {
+    width: 126px;
+    position: relative;
+}
+
+.about__wrapper:after,
+.about__wrapper::before {
+    content: '';
+    position: absolute;
+    right: 59%;
+    top: 27%;
+    width: 165px;
+    height: 1px;
+    background: rgba(53, 83, 98, 0.2);
+}
+
+.about__wrapper::before {
+    right: unset;
+    left: 59%;
+}
+
+.about__point {
+    font-family: 'Public Sans';
+    font-size: 16px;
+    line-height: 1.88;
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 9px 20px;
+    background: #014C48;
+    border-radius: 50%;
+    margin-bottom: 19px;
+}
+
+.about__label {
+    font-family: 'Public Sans';
+    font-size: 15px;
+    line-height: 1.6;
+    color: rgba(53, 83, 98, 0.8);
+}
+
+/* approach */
+
+.approach__main {
+    background: #F7F8F8;
+}
+
+.approach__body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.approach__text-content {
+    max-width: 429px;
+}
+
+.approach__title {
+    font-family: 'Public Sans';
+    font-size: 22px;
+    line-height: 1;
+    color: #003331;
+    margin: 104px 0 13px;
+}
+
+.approach__descr {
+    font-family: 'Public Sans';
+    font-size: 15px;
+    line-height: 1.6;
+    color: rgba(53, 83, 98, 0.8);
+    margin-bottom: 13px;
+}
+
+.approach__photos {
+    display: flex;
+    gap: 8px;
+    padding: 80px 0;
+}
+
+.approach__photos img {
+    border-radius: 3px;
+}
+
+.approach__tabs {
+    margin-top: 24px;
+}
+
+.approach__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.approach__link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 20px 0;
+    width: 153px;
+    border-top: 1px solid rgba(53, 83, 98, 0.3);;
+}
+
+.approach__link img{
+    width: 24px;
+    border-radius: 3px;
+}
+
+.approach__link span{
+    font-family: 'Public Sans';
+    font-size: 15px;
+    line-height: 1.6;
+    color: rgba(53, 83, 98, 0.8);
 }
