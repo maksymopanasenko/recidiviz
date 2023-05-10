@@ -361,3 +361,70 @@
     line-height: 1.6;
     color: rgba(53, 83, 98, 0.8);
 }
+
+/* press */
+
+.press {
+    padding: 87px 0 132px;
+}
+
+.press__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.press__title {
+    font-family: 'Libre Baskerville';
+    font-size: 27px;
+    line-height: 1.41;
+    letter-spacing: 1px;
+    color: #003331;
+}
+
+.press .main__btn {
+    margin-bottom: 0;
+}
+
+.press__grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(125px, auto);
+    gap: 31px 36px;
+}
+
+.press__caption-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 8px;
+}
+
+.press__link {
+    display: inline-block;
+    width: 100%;
+    padding: 16px 0;
+    border-top: 1px solid rgba(53, 83, 98, 0.3);
+}
+
+.press__link img {
+    border-radius: 3px;
+    width: 24px;
+    height: 24px;
+}
+
+.press__label {
+    font-family: 'Public Sans';
+    font-size: 11px;
+    line-height: 1.45;
+    text-transform: uppercase;
+    color: rgba(53, 83, 98, 0.6);
+}
+
+.press__text {
+    font-family: 'Public Sans';
+    font-size: 17px;
+    line-height: 1.45;
+    color: #00413E;
+}
