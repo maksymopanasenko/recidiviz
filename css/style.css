@@ -428,3 +428,49 @@
     line-height: 1.45;
     color: #00413E;
 }
+
+/* blog */
+
+.blog {
+    padding: 80px 0 120px;
+    background: #F7F8F8;
+}
+
+.blog__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.blog__title {
+    font-family: 'Public Sans';
+    font-size: 23px;
+    line-height: 1.25;
+    color: #00413E;
+}
+
+.blog__item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-top: 1px solid rgba(53, 83, 98, 0.3);
+}
+
+.blog__text {
+    font-family: 'Public Sans';
+    font-size: 17px;
+    line-height: 1.29;
+    color: #00413E;
+}
+
+.blog__text:first-child {
+    width: 91px;
+    display: inline-block;
+}
+
+.blog__topic {
+    font-family: 'Public Sans';
+    font-size: 18px;
+    line-height: 1.22;
+    color: #00413E;
+}
